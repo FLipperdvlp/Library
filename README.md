@@ -24,5 +24,5 @@ The application allows users to manage a list of authors in a library system.
 
 ## 📦 Installation
 
-### 1. Install ZIP file of the project 
-### 2. Open frontEnd folder in terminal and write down "npm install" to install all neccecary files
+> 1. Install ZIP file of the project 
+> 2. Open frontEnd folder in terminal and write down "npm install" to install all neccecary files
