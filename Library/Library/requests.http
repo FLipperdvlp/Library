@@ -1,0 +1,44 @@
+@host = http://localhost:5000
+
+### Create auther
+POST {{host}}/authors
+Content-Type: application/json
+
+{
+  "name": "Lesya Ukrainka",
+  "DeathDate": "1913-08-01"
+}
+
+### Get authors books
+GET {{host}}/authors/1/books
+
+### Create Book
+POST {{host}}/books
+Content-Type: application/json
+
+{
+  "name": "You",
+  "authorId": 1,
+  "bookGenre": "Fantasy",
+  "releaseDate": "1893-01-01"
+}
+
+### Get All Books
+GET {{host}}/books
+
+### Get Book By Id
+GET {{host}}/books/6
+
+### Update Book
+PUT {{host}}/books/6
+Content-Type: application/json
+
+{
+  "name": "You(update)",
+  "authorId": 1,
+  "bookGenre": "Fantasy",
+  "releaseDate": "2019-02-15"
+}
+
+### Delete Book
+DELETE {{host}}/books/6
