@@ -24,8 +24,4 @@ The application allows users to manage a list of authors in a library system.
 
 ## 📦 Installation
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/library-authors-app.git
-cd library-authors-app
+### 1. Будет дописано
